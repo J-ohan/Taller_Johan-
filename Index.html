@@ -1,92 +1,135 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Mi Portafolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Johan Barreto | Portafolio Profesional</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <link rel="stylesheet" href="style.css">
 
+<header>
+<nav>
+<h2>Johan.dev</h2>
+<ul>
+<li><a href="#inicio">Inicio</a></li>
+<li><a href="#perfil">Perfil</a></li>
+<li><a href="#habilidades">Habilidades</a></li>
+<li><a href="#proyectos">Proyectos</a></li>
+<li><a href="#formacion">Formación</a></li>
+<li><a href="#contacto">Contacto</a></li>
+</ul>
+</nav>
+</header>
 
-    <!-- ENCABEZADO -->
-    <header>
-        <h1>Mi Portafolio Personal</h1>
-    </header>
+<!-- HERO -->
+<section id="inicio" class="fade-section">
+<img src="https://cdn.pixabay.com/photo/2017/06/26/02/47/icons-2445951_1280.png" alt="Web development illustration">
+<h1>Johan Javier Barreto</h1>
+<h3>Desarrollador Web en Formación</h3>
+<p>Apasionado por la tecnología y el desarrollo web, especializado en interfaces modernas y funcionales.</p>
+<a href="#contacto" class="btn">Contáctame</a>
+</section>
 
-    <!-- SECCIÓN FOTO -->
-    <section id="foto">
-        <h2>JOHAN JAVIER BARRETO </h2>
-        <img src="foto.jpg" alt="Foto personal" width="200">
-        
-    </section>
+<!-- PERFIL -->
+<section id="perfil" class="fade-section">
+<h2>Perfil Profesional</h2>
+<p>Estudiante con formación técnica, responsable, disciplinado y con capacidad de aprendizaje rápido. Experiencia en proyectos académicos utilizando HTML, CSS, Python y control de versiones con Git y GitHub.</p>
+</section>
 
-    <!-- SECCIÓN DESCRIPCIÓN -->
-    <section id="descripcion">
-        <h2>Descripción</h2>
-        <p>
-            Hola, mi nombre es Johan Barreto. Soy estudiante apasionado por la tecnología 
-            y el desarrollo web. Me gusta aprender cosas nuevas y mejorar cada día.
-        </p>
-    </section>
+<!-- HABILIDADES -->
+<section id="habilidades" class="fade-section">
+<h2>Habilidades Técnicas</h2>
+<div class="skill-icons">
+<img src="https://img.icons8.com/color/96/000000/html-5--v1.png" alt="HTML">
+<img src="https://img.icons8.com/color/96/000000/css3.png" alt="CSS">
 
-    <!-- SECCIÓN CONOCIMIENTOS -->
-    <section id="conocimientos">
-        <h2>Conocimientos</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Python</li>
-            <li>Git y GitHub</li>
-        </ul>
-    </section>
+<img src="https://img.icons8.com/color/96/000000/python--v1.png" alt="Python">
+<img src="https://img.icons8.com/color/96/000000/github.png" alt="GitHub">
+</div>
 
-    <!-- SECCIÓN ESTUDIOS -->
-    <section id="estudios">
-        <h2>Estudios</h2>
-        <ul>
-            <li>Bachillerato</li>
-            <li>Técnico en Electricidad</li>
-            <li>En curso de Programación</li>
-        </ul>
-    </section>
+<div class="skills-bar-container">
+<div class="skill">
+<span>HTML</span>
+<div class="skill-bar"><div class="skill-fill" data-skill="90%"></div></div>
+</div>
+<div class="skill">
+<span>CSS</span>
+<div class="skill-bar"><div class="skill-fill" data-skill="85%"></div></div>
+</div>
+<div class="skill">
 
-    <!-- SECCIÓN HOBBIES -->
-    <section id="hobbies">
-        <h2>Hobbies</h2>
-        <ul>
-            <li>Dormir</li>
-            <li>Escuchar música</li>
-            <li>Jugar micro</li>
-            <li>Jugar video juegos</li>
-        </ul>
-        <img src="asset/Imagen 1.jpg" alt="Imagen hobbies" width="200">
-    </section>
+</div>
+<div class="skill">
+<span>Python</span>
+<div class="skill-bar"><div class="skill-fill" data-skill="70%"></div></div>
+</div>
+<div class="skill">
+<span>Git & GitHub</span>
+<div class="skill-bar"><div class="skill-fill" data-skill="80%"></div></div>
+</div>
+</div>
+</section>
 
-    <!-- SECCIÓN SUEÑOS -->
-    <section id="suenos">
-        <h2>Sueños</h2>
-        <p>
-            Mi sueño es convertirme en un desarrollador profesional, 
-            trabajar en grandes proyectos tecnológicos y crear mis propias aplicaciones.
-        </p>
-    </section><section id="video">
-    <h2>Video</h2>
+<!-- PROYECTOS -->
+<section id="proyectos" class="fade-section">
+<h2>Proyectos Destacados</h2>
 
-    <div class="video-contenedor">
-        <iframe 
-            src="https://www.youtube.com/embed/VxrIZGQfxmE"
-            allowfullscreen>
-        </iframe>
-    </div>
+<div class="project-card">
+<img src="https://cdn.pixabay.com/photo/2016/01/19/17/52/coding-1141712_1280.png" alt="Portafolio Web">
+<h3>Portafolio Web Profesional</h3>
+<p>Portafolio moderno y responsive con animaciones y diseño profesional.</p>
+</div>
 
+<div class="project-card">
+<img src="https://cdn.pixabay.com/photo/2018/03/08/13/21/code-3214987_1280.png" alt="Aplicación Python">
+<h3>Aplicación en Python</h3>
+<p>Aplicación básica con lógica de programación y estructuras eficientes.</p>
+</div>
 
+</section>
 
+<!-- FORMACIÓN -->
+<section id="formacion" class="fade-section">
+<h2>Formación Académica</h2>
+<ul>
+<li>Bachiller Académico</li>
+<li>Técnico en Electricidad</li>
+<li>Curso de Programación y Desarrollo Web</li>
+</ul>
+</section>
 
-    <!-- PIE DE PÁGINA -->
-    <footer>
-        <p>© 2026 Johan Barreto - Todos los derechos reservados</p>
-    </footer>
-    
+<!-- CONTACTO -->
+<section id="contacto" class="fade-section">
+<h2>Contacto</h2>
+<p>Email: johan@email.com</p>
+<p>Teléfono: +00 000 000 000</p>
+<p>GitHub: github.com/johan</p>
+<a href="mailto:johan@email.com" class="btn">Enviar Mensaje</a>
+</section>
+
+<footer>
+<p>© 2026 Johan Javier Barreto | Portafolio Profesional</p>
+</footer>
+
+<script>
+// ANIMACION DE SCROLL
+const sections = document.querySelectorAll('.fade-section');
+const observer = new IntersectionObserver(entries => {
+entries.forEach(entry => {
+    if(entry.isIntersecting){
+        entry.target.classList.add('visible');
+    }
+});
+},{threshold:0.2});
+sections.forEach(section => observer.observe(section));
+
+// ANIMACION DE BARRAS DE HABILIDADES
+const skillFills = document.querySelectorAll('.skill-fill');
+skillFills.forEach(fill => {
+    fill.style.width = fill.dataset.skill;
+});
+</script>
 
 </body>
 </html>
